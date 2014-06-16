@@ -18,6 +18,9 @@ Your mission, should you choose to accept it, is to take the existing code, and 
 
 <img src="img/marquee.gif" style="width: 50%;" />
 
+Write your code in the `js/animation.js` file.  You are handed an array of divs, and you need to write some code
+that uses `setInterval` to set the background colors correctly.
+
 # Extra
 
 Add a button to the page to toggle the marquee on and off.  To accomplish this, look into `clearInterval`.
