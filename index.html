@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    .hline {
+      border: 1px solid black;
+      width: 40px;
+      height: 10px;
+      position: absolute;
+    }
+
+    .vline {
+      border: 1px solid black;
+      width: 10px;
+      height: 40px;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/lights.js"></script>
+<script src="js/animation.js"></script>
+<script>
+  $(function () {
+    Lights.render();
+    Animation.initialize(Lights.all);
+  });
+</script>
+</body>
+</html>
